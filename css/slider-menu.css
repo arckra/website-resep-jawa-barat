@@ -1,0 +1,101 @@
+.slider {
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 50vh;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  border-radius: var(--borderRadius);
+}
+.slider .list {
+  position: absolute;
+  width: max-content;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  transition: 1s;
+  z-index: -1;
+}
+.slider .list img {
+  width: 1300px;
+  max-width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+.slider .buttons {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.slider .buttons button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff5;
+  color: #fff;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+}
+.slider .dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.slider .dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.slider .dots li.active {
+  width: 30px;
+}
+.centered {
+  position: relative;
+  top: -50%;
+  left: 43%;
+  width: 100%;
+  min-height: 45vh;
+  height: 100%;
+  transform: translate(-50%, -20%);
+  background-image: linear-gradient(
+    transparent,
+    rgb(0, 0, 0, 0.8),
+    rgb(0, 0, 0)
+  );
+  border-radius: var(--borderRadius);
+}
+.centered h2 {
+  font-size: 2.441rem;
+  font-weight: 800;
+}
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 400px;
+    margin-bottom: 25%;
+    min-height: 70vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  .slider {
+    min-height: 20vh;
+  }
+}

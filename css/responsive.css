@@ -1,0 +1,88 @@
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+}
+
+.recipe-img {
+  height: 70%;
+  border-radius: var(--borderRadius);
+  margin-bottom: 1rem;
+}
+.nav-header {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show-links {
+  height: 29rem;
+}
+.centered h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.centered h6 {
+  font-size: 1rem;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .dropdown-content {
+    display: none;
+    position: unset;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    top: 62px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: var(--borderRadius);
+    animation: rotateMenu 500ms ease-in-out forwards;
+    transform-origin: top;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .centered {
+    position: relative;
+    top: -50%;
+    left: 43%;
+    width: 100%;
+    min-height: 45vh;
+    height: 100%;
+    transform: translate(-50%, -20%);
+    background-image: linear-gradient(
+      transparent,
+      rgb(0, 0, 0, 0.8),
+      rgb(0, 0, 0)
+    );
+    border-radius: var(--borderRadius);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 400px;
+    margin-bottom: 25%;
+    min-height: 70vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  .slider {
+    min-height: 20vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  .recipe-hero-img {
+    height: 230px;
+    border-radius: var(--borderRadius);
+    float: left;
+    width: auto;
+    shape-outside: margin-box;
+    margin-right: 2rem;
+    margin-bottom: 1.1rem;
+    shape-margin: 20px;
+  }
+}
