@@ -1,0 +1,19 @@
+{
+    "resep": [
+      {
+        "nama": "nasi goreng",
+        "bahan": ["nasi", "kecap", "telur", "bawang merah", "bawang putih", "minyak goreng", "garam", "merica"],
+        "alat": ["wajan", "spatula", "kompor"]
+      },
+      {
+        "nama": "mie goreng",
+        "bahan": ["mie instan", "kecap", "telur", "bawang merah", "bawang putih", "minyak goreng", "garam", "merica"],
+        "alat": ["wajan", "spatula", "kompor"]
+      },
+      {
+        "nama": "soto ayam",
+        "bahan": ["ayam", "bawang merah", "bawang putih", "kunyit", "jahe", "serai", "daun jeruk", "santan", "garam", "merica"],
+        "alat": ["panci", "kompor", "sendok"]
+      }
+    ]
+  }

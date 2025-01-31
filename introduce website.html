@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/icons.png" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+                <div class="nav-links">
+          <a href="index.html" class="nav-link"> Beranda </a>
+          <a href="about.html" class="nav-link"> Tentang </a>
+          <a href="tags.html" class="nav-link"> Tagar </a>
+          <a href="recipes.html" class="nav-link"> Resep </a>
+          <div class="dropdown">
+            <a class="dropbtn"> Artikel
+              <i class="fa fa-caret-down"></i>
+             </button>
+             <div class="dropdown-content">
+               <a href="artikel-tips-masak.html"> Tips Masak</a>
+               <a href="makanan & gaya hidup.html"> Makanan & Gaya Hidup</a>   
+               <a href="artikellist.html">Semua Artikel</a>         
+             </div> 
+
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h3>
+            Selamat Datang di "Sajian Nusantara: Resep Makanan Khas Jawa Barat"
+          </h3>
+          <p>Jelajahi Kelezatan yang Mendalam dari Dapur Jawa Barat!</p>
+          <p>
+            Selamat datang di rumah bagi para pecinta kuliner Indonesia dan
+            penggemar rasa autentik. "Sajian Nusantara: Resep Makanan Khas Jawa
+            Barat" adalah tempat di mana keajaiban kuliner Jawa Barat terungkap
+            melalui kisah rasa dan tradisi yang kaya. Di sini, kami
+            mempersembahkan resep-resep autentik yang telah diwariskan dari
+            generasi ke generasi. Mari kita berjalan melalui lorong-lorong cita
+            rasa tradisional yang akan memanjakan lidah dan memeluk hati Anda.
+          </p>
+        </article>
+        <!-- gambar about -->
+        <img
+          src="./assets/about.jpeg"
+          alt="Person Pouring Salt in Bowl"
+          class="img about-img"
+        />
+      </section>
+      <section class="featured-recipes-1">
+        <h5 class="featured-title">Rekomendasi resep</h5>
+        <div class="recipes-list">
+          <!-- list resep -->
+          <a href="resep-karedok.html" class="recipe">
+            <img
+              src="./assets/recipes/karedok.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Karedok</h5>
+            <p>Sumedang</p>
+          </a>
+
+          <a href="tahu gejrot.html" class="recipe">
+            <img
+              src="./assets/recipes/tahu gejrot.png"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Tahu gejrot</h5>
+            <p>Cirebon</p>
+          </a>
+
+          <a href="sate maranggi.html" class="recipe">
+            <img
+              src="./assets/recipes/sate maranggi.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Sate Maranggi</h5>
+            <p>Purwakarta</p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span> <span class="footer-logo"> </span> Built
+        by
+        &nbsp;
+        <p>tim website NoIdea </p>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
